@@ -8,7 +8,7 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 ## Install (Chrome / Edge)
 
-1. Open the [Releases](../../releases) page and download `spot-read-vX.Y.Z.zip` from the latest release.
+1. Download the latest build: **[spot-read-v0.12.10.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.10.zip)** (older builds are in the [downloads](downloads) folder).
 2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
 3. Open `chrome://extensions` (Edge: `edge://extensions`).
 4. Turn on **Developer mode** (top right; in Edge, on the left).
@@ -18,6 +18,11 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 **Update:** download the new zip, replace the files in the same folder, then click the reload button on the Spot Read card in `chrome://extensions`. Refresh tabs that were already open.
 
 **PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
+
+## What's new in v0.12.10
+
+- PDF reader no longer crashes when switching between original and text layout.
+- No more "Extension context invalidated" errors in tabs left open after an update.
 
 Feedback: assist@getspotread.com
 
@@ -29,7 +34,7 @@ Feedback: assist@getspotread.com
 
 ### 安装步骤
 
-1. 打开 [Releases](../../releases) 页面，在最新版本下下载 `spot-read-vX.Y.Z.zip`。
+1. 下载最新版：**[spot-read-v0.12.10.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.10.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
 3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
 4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
@@ -39,5 +44,10 @@ Feedback: assist@getspotread.com
 **更新：** 下载新版 zip，覆盖同一个文件夹里的文件，然后在 `chrome://extensions` 里点聚读卡片上的刷新按钮。之前已经打开的网页需要刷新一下。
 
 **读本地 PDF：** 在聚读卡片上点「详情」，打开「允许访问文件网址」。
+
+### v0.12.10 更新
+
+- PDF 阅读器在原版和文字模式之间切换不再崩溃。
+- 插件更新后，之前打开的网页不再报 "Extension context invalidated"。
 
 反馈：assist@getspotread.com
