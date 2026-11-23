@@ -8,7 +8,7 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 ## Install (Chrome / Edge)
 
-1. Download the latest build: **[spot-read-v0.12.10.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.10.zip)** (older builds are in the [downloads](downloads) folder).
+1. Download the latest build: **[spot-read-v0.12.11.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.11.zip)** (older builds are in the [downloads](downloads) folder).
 2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
 3. Open `chrome://extensions` (Edge: `edge://extensions`).
 4. Turn on **Developer mode** (top right; in Edge, on the left).
@@ -19,7 +19,14 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 **PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
 
-## What's new in v0.12.10
+## What's new
+
+**v0.12.11**
+
+- Right-click twice to copy / three times to save now also works on web apps that block right clicks (e.g. the Claude app).
+- A small "✓ Copied" / "✓ Saved" message confirms it.
+
+**v0.12.10**
 
 - PDF reader no longer crashes when switching between original and text layout.
 - No more "Extension context invalidated" errors in tabs left open after an update.
@@ -34,7 +41,7 @@ Feedback: assist@getspotread.com
 
 ### 安装步骤
 
-1. 下载最新版：**[spot-read-v0.12.10.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.10.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
+1. 下载最新版：**[spot-read-v0.12.11.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.11.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
 3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
 4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
@@ -45,7 +52,14 @@ Feedback: assist@getspotread.com
 
 **读本地 PDF：** 在聚读卡片上点「详情」，打开「允许访问文件网址」。
 
-### v0.12.10 更新
+### 更新记录
+
+**v0.12.11**
+
+- 右键点两下复制、点三下收藏，在会拦截右键的网页（例如 Claude 网页版）上也能用了。
+- 成功后页面底部会短暂出现「✓ 复制成功」或「✓ 收藏成功」。
+
+**v0.12.10**
 
 - PDF 阅读器在原版和文字模式之间切换不再崩溃。
 - 插件更新后，之前打开的网页不再报 "Extension context invalidated"。
