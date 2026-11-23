@@ -8,7 +8,7 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 ## Install (Chrome / Edge)
 
-1. Download the latest build: **[spot-read-v0.12.11.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.11.zip)** (older builds are in the [downloads](downloads) folder).
+1. Download the latest build: **[spot-read-v0.12.12.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.12.zip)** (older builds are in the [downloads](downloads) folder).
 2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
 3. Open `chrome://extensions` (Edge: `edge://extensions`).
 4. Turn on **Developer mode** (top right; in Edge, on the left).
@@ -21,10 +21,9 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 ## What's new
 
-**v0.12.11**
+**v0.12.12**
 
 - Right-click twice to copy / three times to save now also works on web apps that block right clicks (e.g. the Claude app).
-- A small "✓ Copied" / "✓ Saved" message confirms it.
 
 **v0.12.10**
 
@@ -41,7 +40,7 @@ Feedback: assist@getspotread.com
 
 ### 安装步骤
 
-1. 下载最新版：**[spot-read-v0.12.11.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.11.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
+1. 下载最新版：**[spot-read-v0.12.12.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.12.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
 3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
 4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
@@ -54,10 +53,9 @@ Feedback: assist@getspotread.com
 
 ### 更新记录
 
-**v0.12.11**
+**v0.12.12**
 
 - 右键点两下复制、点三下收藏，在会拦截右键的网页（例如 Claude 网页版）上也能用了。
-- 成功后页面底部会短暂出现「✓ 复制成功」或「✓ 收藏成功」。
 
 **v0.12.10**
 
