@@ -19,20 +19,20 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 **PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
 
-## What's new
+## Release notes
 
-**v0.12.13**
+### v0.12.13
+**New**
+- Saved sentences are now highlighted when you revisit the page they were saved from. This can be turned off under *Settings › Saved sentences*.
 
-- Sentences you saved from a page are marked (light background and underline) whenever you open that page again. Can be turned off in Settings → Saved sentences. Works offline.
+### v0.12.12
+**Fixed**
+- Double right-click (copy) and triple right-click (save) now work on web apps that intercept the context menu, such as Claude.
 
-**v0.12.12**
-
-- Right-click twice to copy / three times to save now also works on web apps that block right clicks (e.g. the Claude app).
-
-**v0.12.10**
-
-- PDF reader no longer crashes when switching between original and text layout.
-- No more "Extension context invalidated" errors in tabs left open after an update.
+### v0.12.10
+**Fixed**
+- The PDF reader no longer crashes when switching between Original and Text layouts.
+- Pages left open during an extension update no longer report "Extension context invalidated" errors.
 
 Feedback: assist@getspotread.com
 
@@ -55,19 +55,6 @@ Feedback: assist@getspotread.com
 
 **读本地 PDF：** 在聚读卡片上点「详情」，打开「允许访问文件网址」。
 
-### 更新记录
-
-**v0.12.13**
-
-- 再次打开收藏过句子的网页时，这些句子会显示浅色底纹和下划线。可在设置 →「收藏的句子」里关闭。无需联网。
-
-**v0.12.12**
-
-- 右键点两下复制、点三下收藏，在会拦截右键的网页（例如 Claude 网页版）上也能用了。
-
-**v0.12.10**
-
-- PDF 阅读器在原版和文字模式之间切换不再崩溃。
-- 插件更新后，之前打开的网页不再报 "Extension context invalidated"。
+更新记录见上方英文 [Release notes](#release-notes)。
 
 反馈：assist@getspotread.com
