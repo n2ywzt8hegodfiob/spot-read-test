@@ -8,7 +8,7 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 ## Install (Chrome / Edge)
 
-1. Download the latest build: **[spot-read-v0.12.12.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.12.zip)** (older builds are in the [downloads](downloads) folder).
+1. Download the latest build: **[spot-read-v0.12.13.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.13.zip)** (older builds are in the [downloads](downloads) folder).
 2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
 3. Open `chrome://extensions` (Edge: `edge://extensions`).
 4. Turn on **Developer mode** (top right; in Edge, on the left).
@@ -20,6 +20,10 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 **PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
 
 ## What's new
+
+**v0.12.13**
+
+- Sentences you saved from a page are marked (light background and underline) whenever you open that page again. Can be turned off in Settings → Saved sentences. Works offline.
 
 **v0.12.12**
 
@@ -40,7 +44,7 @@ Feedback: assist@getspotread.com
 
 ### 安装步骤
 
-1. 下载最新版：**[spot-read-v0.12.12.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.12.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
+1. 下载最新版：**[spot-read-v0.12.13.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.13.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
 3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
 4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
@@ -52,6 +56,10 @@ Feedback: assist@getspotread.com
 **读本地 PDF：** 在聚读卡片上点「详情」，打开「允许访问文件网址」。
 
 ### 更新记录
+
+**v0.12.13**
+
+- 再次打开收藏过句子的网页时，这些句子会显示浅色底纹和下划线。可在设置 →「收藏的句子」里关闭。无需联网。
 
 **v0.12.12**
 
