@@ -2,6 +2,10 @@
 
 User-visible changes in Spot Read test builds. The newest version is at the top.
 
+### v0.12.23
+**New**
+- Right-click selected text twice to copy it, or three times to save it to your favorites. Shift + right-click still opens the browser menu.
+
 ### v0.12.22
 **New**
 - After you turn Spot Read on with the floating button, it stays on for other pages you open in the same tab.

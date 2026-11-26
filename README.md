@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi"><b>Chrome Web Store</b></a> ·
-  <a href="https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip">Download test build</a> ·
+  <a href="https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.23.zip">Download test build</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="README.zh-CN.md">中文</a>
 </p>
@@ -44,7 +44,7 @@
 
 This repository hosts test builds, which get new fixes before the store version. It contains no source code.
 
-1. Download the latest build: **[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)** (older builds are in [downloads](downloads)).
+1. Download the latest build: **[spot-read-v0.12.23.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.23.zip)** (older builds are in [downloads](downloads)).
 2. Unzip it into a folder you will keep. The browser loads the extension from that folder.
 3. Open `chrome://extensions` (Edge: `edge://extensions`) and turn on **Developer mode**.
 4. Click **Load unpacked** and choose the unzipped folder (the one that contains `manifest.json`).
@@ -57,6 +57,10 @@ This repository hosts test builds, which get new fixes before the store version.
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
+
+## License
+
+Spot Read is free to use but not open source. All rights reserved. See [LICENSE](LICENSE).
 
 ## Feedback
 

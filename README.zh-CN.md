@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi"><b>Chrome 应用商店</b></a> ·
-  <a href="https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip">下载测试版</a> ·
+  <a href="https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.23.zip">下载测试版</a> ·
   <a href="CHANGELOG.md">更新记录（英文）</a> ·
   <a href="README.md">English</a>
 </p>
@@ -44,7 +44,7 @@
 
 这个仓库放的是测试版安装包，新的修复会比商店版更早出现在这里。仓库里不含源码。
 
-1. 下载最新版：**[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
+1. 下载最新版：**[spot-read-v0.12.23.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.23.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 解压到一个会长期保留的文件夹，浏览器会从这个文件夹加载插件。
 3. 打开 `chrome://extensions`（Edge 打开 `edge://extensions`），打开「**开发者模式**」。
 4. 点「**加载已解压的扩展程序**」，选择解压后的文件夹（里面有 `manifest.json` 的那一层）。
@@ -57,6 +57,10 @@
 ## 更新记录
 
 每个版本的改动见 [CHANGELOG.md](CHANGELOG.md)（英文）。
+
+## 许可
+
+聚读可以免费使用，但不开源，保留所有权利。详见 [LICENSE](LICENSE)。
 
 ## 反馈
 
