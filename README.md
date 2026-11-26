@@ -6,9 +6,11 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 
 [中文说明在下方](#中文说明)
 
-## Install (Chrome / Edge)
+> **Spot Read is now on the Chrome Web Store.** [Install it from the Chrome Web Store](https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi) and click **Add to Chrome**. It also works in Microsoft Edge (Edge can install extensions from the Chrome Web Store). The store version updates automatically, so most people should use it instead of the test builds below.
 
-1. Download the latest build: **[spot-read-v0.12.14.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.14.zip)** (older builds are in the [downloads](downloads) folder).
+## Install a test build manually (Chrome / Edge)
+
+1. Download the latest build: **[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)** (older builds are in the [downloads](downloads) folder).
 2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
 3. Open `chrome://extensions` (Edge: `edge://extensions`).
 4. Turn on **Developer mode** (top right; in Edge, on the left).
@@ -20,6 +22,19 @@ This repository only hosts **test builds** for Chrome / Edge. It contains no sou
 **PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
 
 ## Release notes
+
+### v0.12.22
+**New**
+- After you turn Spot Read on with the floating button, it stays on for other pages you open in the same tab.
+- New installs start with highlight, bold and larger text turned on.
+
+**Improved**
+- Long sentences are no longer split inside brackets, such as citation lists.
+
+**Fixed**
+- Space and the arrow keys now move between sentences in Gmail, and message bodies are read, including messages expanded later.
+- LinkedIn profiles are read past the person's name, and LinkedIn company pages now show the focused sentence.
+- Reading no longer stops when a page reloads the text you are reading.
 
 ### v0.12.14
 **Improved**
@@ -46,9 +61,11 @@ Feedback: assist@getspotread.com
 
 这个仓库只放 Chrome / Edge 的**测试版安装包**，不含源码。
 
-### 安装步骤
+> **聚读已上架 Chrome 应用商店。** [打开 Chrome 应用商店页面](https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi)，点「添加至 Chrome」即可。Edge 也可以直接从 Chrome 应用商店安装。商店版会自动更新，大多数人用商店版就好，不需要下面的测试版。
 
-1. 下载最新版：**[spot-read-v0.12.14.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.14.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
+### 手动安装测试版
+
+1. 下载最新版：**[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
 2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
 3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
 4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
