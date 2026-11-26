@@ -1,81 +1,63 @@
-# Spot Read · 聚读 — test builds
+<p align="center">
+  <img src="assets/readme/icon.png" width="96" alt="Spot Read icon">
+</p>
 
-Spot Read focuses one sentence at a time while you read (highlight, bold, enlarge, underline), with keyboard navigation, auto-advance, read-aloud, a built-in PDF reader and favorites.
+<h1 align="center">Spot Read</h1>
 
-This repository only hosts **test builds** for Chrome / Edge. It contains no source code.
+<p align="center">
+  <b>Read one sentence at a time.</b><br>
+  A browser extension that keeps your focus on the sentence you are reading, for easier reading of long texts.
+</p>
 
-[中文说明在下方](#中文说明)
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi"><b>Chrome Web Store</b></a> ·
+  <a href="https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip">Download test build</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="README.zh-CN.md">中文</a>
+</p>
 
-> **Spot Read is now on the Chrome Web Store.** [Install it from the Chrome Web Store](https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi) and click **Add to Chrome**. It also works in Microsoft Edge (Edge can install extensions from the Chrome Web Store). The store version updates automatically, so most people should use it instead of the test builds below.
+<p align="center">
+  <img src="assets/readme/en-1-reading.png" width="760" alt="Spot Read highlighting one sentence in an article">
+</p>
 
-## Install a test build manually (Chrome / Edge)
+## Features
 
-1. Download the latest build: **[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)** (older builds are in the [downloads](downloads) folder).
-2. Unzip it into a folder you will keep (do not delete it afterwards; the browser loads the extension from that folder).
-3. Open `chrome://extensions` (Edge: `edge://extensions`).
-4. Turn on **Developer mode** (top right; in Edge, on the left).
-5. Click **Load unpacked** and choose the unzipped folder (the one that contains `manifest.json`).
-6. Pin the Spot Read icon in the toolbar. Open any article and press **Space** or **→** to move to the next sentence.
+- **Sentence focus**: the current sentence is highlighted, bolded, enlarged or underlined, in the style you choose.
+- **Simple navigation**: press **Space** or **→** for the next sentence and **←** to go back, or click any sentence.
+- **Main content only**: menus, ads, user names and timestamps are skipped, so you read the article itself.
+- **Long sentences in parts**: very long sentences can be read part by part.
+- **Auto-advance and read-aloud**: move on automatically at your own pace, with optional text-to-speech.
+- **Built-in PDF reader**: read PDFs sentence by sentence, from the web or from your computer.
+- **Copy and save**: right-click a sentence twice to copy it, three times to save it to your favorites, with optional sync across devices.
+- **Works where you read**: news sites, Gmail, Reddit, LinkedIn, AI chat pages and more.
 
-**Update:** download the new zip, replace the files in the same folder, then click the reload button on the Spot Read card in `chrome://extensions`. Refresh tabs that were already open.
+<p align="center">
+  <img src="assets/readme/en-2-popup.png" width="49%" alt="Toolbar popup">
+  <img src="assets/readme/en-3-settings.png" width="49%" alt="Settings page">
+</p>
 
-**PDF files on your computer:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
+## Install
 
-## Release notes
+**Recommended:** install Spot Read from the [Chrome Web Store](https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi). It also works in Microsoft Edge, and it updates automatically.
 
-### v0.12.22
-**New**
-- After you turn Spot Read on with the floating button, it stays on for other pages you open in the same tab.
-- New installs start with highlight, bold and larger text turned on.
+### Test builds (Chrome / Edge)
 
-**Improved**
-- Long sentences are no longer split inside brackets, such as citation lists.
+This repository hosts test builds, which get new fixes before the store version. It contains no source code.
 
-**Fixed**
-- Space and the arrow keys now move between sentences in Gmail, and message bodies are read, including messages expanded later.
-- LinkedIn profiles are read past the person's name, and LinkedIn company pages now show the focused sentence.
-- Reading no longer stops when a page reloads the text you are reading.
+1. Download the latest build: **[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)** (older builds are in [downloads](downloads)).
+2. Unzip it into a folder you will keep. The browser loads the extension from that folder.
+3. Open `chrome://extensions` (Edge: `edge://extensions`) and turn on **Developer mode**.
+4. Click **Load unpacked** and choose the unzipped folder (the one that contains `manifest.json`).
+5. Pin Spot Read to the toolbar, open an article and press **Space**.
 
-### v0.12.14
-**Improved**
-- Effect options in the toolbar popup now preview their own style (highlight, bold, larger text, underline, text color), reflecting your current effect settings.
+**Update:** replace the files in the same folder with the new build, click the reload button on the Spot Read card in `chrome://extensions`, then refresh open tabs.
 
-### v0.12.13
-**New**
-- Saved sentences are now highlighted when you revisit the page they were saved from. This can be turned off under *Settings › Saved sentences*.
+**Local PDF files:** on the Spot Read card, click **Details** and turn on **Allow access to file URLs**.
 
-### v0.12.12
-**Fixed**
-- Double right-click (copy) and triple right-click (save) now work on web apps that intercept the context menu, such as Claude.
+## Changelog
 
-### v0.12.10
-**Fixed**
-- The PDF reader no longer crashes when switching between Original and Text layouts.
-- Pages left open during an extension update no longer report "Extension context invalidated" errors.
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
 
-Feedback: assist@getspotread.com
+## Feedback
 
-## 中文说明
-
-聚读会在你阅读时一次只突出一句话（高亮、加粗、放大、下划线），支持键盘逐句翻页、自动翻句、朗读、内置 PDF 阅读器和收藏。
-
-这个仓库只放 Chrome / Edge 的**测试版安装包**，不含源码。
-
-> **聚读已上架 Chrome 应用商店。** [打开 Chrome 应用商店页面](https://chromewebstore.google.com/detail/spot-read-%E2%80%93-sentence-focu/gckmcmnjhcbhmgmdmdellepjjdinaooi)，点「添加至 Chrome」即可。Edge 也可以直接从 Chrome 应用商店安装。商店版会自动更新，大多数人用商店版就好，不需要下面的测试版。
-
-### 手动安装测试版
-
-1. 下载最新版：**[spot-read-v0.12.22.zip](https://github.com/n2ywzt8hegodfiob/spot-read-test/raw/main/downloads/spot-read-v0.12.22.zip)**（旧版本在 [downloads](downloads) 文件夹里）。
-2. 把它解压到一个会长期保留的文件夹（之后不要删除，浏览器从这个文件夹加载插件）。
-3. 在地址栏打开 `chrome://extensions`（Edge 打开 `edge://extensions`）。
-4. 打开右上角的「**开发者模式**」（Edge 在左侧）。
-5. 点「**加载已解压的扩展程序**」，选择解压后的文件夹（里面有 `manifest.json` 的那一层）。
-6. 把聚读图标固定到工具栏。打开任意一篇文章，按 **空格** 或 **→** 就能逐句往下读。
-
-**更新：** 下载新版 zip，覆盖同一个文件夹里的文件，然后在 `chrome://extensions` 里点聚读卡片上的刷新按钮。之前已经打开的网页需要刷新一下。
-
-**读本地 PDF：** 在聚读卡片上点「详情」，打开「允许访问文件网址」。
-
-更新记录见上方英文 [Release notes](#release-notes)。
-
-反馈：assist@getspotread.com
+Questions, bugs and ideas: [assist@getspotread.com](mailto:assist@getspotread.com)
